@@ -11,6 +11,7 @@
         <servlet-name>Servlet12</servlet-name>
         <servlet-class>pl.coderslab.Servlet12
         </servlet-class>
+
     </servlet>
     <servlet-mapping>
         <servlet-name>Servlet12</servlet-name>

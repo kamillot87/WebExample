@@ -16,6 +16,7 @@ public class FirstExampleServlet extends HttpServlet {
         System.out.println("Napiszę cokolwiek");
         resp.getWriter().println("WITAJ!!!!\n" +
                 "napiszę cokolwiek by sprawdzić czy działa");
+
     }
 
 }

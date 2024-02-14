@@ -13,5 +13,6 @@ public class Servlet14 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         resp.getWriter().println(req.getHeader("Header") + " : " + req.getRemoteAddr());
+
     }
 }

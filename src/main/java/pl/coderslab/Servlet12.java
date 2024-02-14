@@ -13,5 +13,6 @@ public class Servlet12 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Hello First Servlet");
         resp.getWriter().println("Content12");
+
     }
 }
